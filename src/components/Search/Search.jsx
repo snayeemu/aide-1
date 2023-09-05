@@ -3,7 +3,7 @@ import React from "react";
 
 const Search = () => {
   return (
-    <View className="mx-2 mt-5 ">
+    <View className="mx-2 my-5 ">
       <View className="flex flex-row gap-5 items-center">
         <View className="flex-1 border rounded-xl px-6 py-[14px]">
           <View className="flex flex-row justify-between">
