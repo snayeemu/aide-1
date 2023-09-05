@@ -6,6 +6,7 @@ import Search from "./src/components/Search/Search";
 import Discount from "./src/components/Discount/Discount";
 import ProductCard from "./src/components/Products/ProductCard/ProductCard";
 import Products from "./src/components/Products/Products";
+import BottomNavigation from "./src/components/BottomNavigation/BottomNavigation";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Products />
         {/* <ProductCard /> */}
       </ScrollView>
+      <BottomNavigation />
     </>
   );
 };
