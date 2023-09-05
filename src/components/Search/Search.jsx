@@ -12,7 +12,7 @@ const Search = () => {
                 className="h-[18px] w-[18px]"
                 source={require("../../../assets/search-images/search-logo.png")}
               />
-              <TextInput className="flex-1" value="search" />
+              <TextInput className="flex-1 px-4" placeholder="search" />
             </View>
 
             <Image
