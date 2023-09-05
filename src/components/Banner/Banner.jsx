@@ -3,13 +3,13 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <ScrollView className="mx-2 mt-1 flex-2" horizontal={true}>
+    <ScrollView className="mx-2 mt-1" horizontal={true}>
       <ImageBackground
-        className="w-screen "
+        className="w-screen"
         source={require("../../../assets/banner-image.png")}
         resizeMode="cover"
       >
-        <View className="px-9">
+        <View className="px-9 ">
           <Text className="text-[24px] font-[700] pt-[44px] w-[50%]">
             Enjoy Peace
           </Text>
