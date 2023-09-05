@@ -12,7 +12,7 @@ const Navbar = () => {
         <Text className="text-[20px] font-[700]">AIDE</Text>
       </View>
 
-      <View className="flex flex-row gap-[17px]">
+      <View className="flex flex-row gap-[17px] ">
         <Image
           className="w-[19px] h-[18px]"
           source={require("../../../assets/notification-logo.png")}
