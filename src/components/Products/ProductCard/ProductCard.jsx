@@ -4,7 +4,7 @@ import React from "react";
 const ProductCard = () => {
   return (
     <View className="mx-2 mb-5 w-[45%]">
-      <View className="rounded-xl border  border-[#DADADA]">
+      <View className="rounded-xl border  border-[#DADADA]  ">
         <Image
           className="ml-auto mr-2 mt-2 w-2 h-2"
           source={require("../../../../assets/favorite-icon.png")}

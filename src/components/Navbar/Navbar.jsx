@@ -9,7 +9,10 @@ const Navbar = () => {
           className="w-[28px] h-[27px]"
           source={require("../../../assets/aide-logo.png")}
         />
-        <Text className="text-[20px] font-[700]">AIDE</Text>
+
+        <Text className="text-[20px] font-[700] border text-black w-[70px]">
+          AIDE
+        </Text>
       </View>
 
       <View className="flex flex-row gap-[17px] ">

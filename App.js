@@ -7,6 +7,7 @@ import Discount from "./src/components/Discount/Discount";
 import ProductCard from "./src/components/Products/ProductCard/ProductCard";
 import Products from "./src/components/Products/Products";
 import BottomNavigation from "./src/components/BottomNavigation/BottomNavigation";
+import { StatusBar } from "expo-status-bar";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         {/* <ProductCard /> */}
       </ScrollView>
       <BottomNavigation />
+      <StatusBar backgroundColor="#61dafb" barStyle={"default"} />
     </>
   );
 };
