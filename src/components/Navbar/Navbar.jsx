@@ -3,16 +3,14 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <View className="mt-12 mx-[15px] flex flex-row justify-between items-center">
+    <View className="py-2 mx-[15px] flex flex-row justify-between items-center ">
       <View className="flex flex-row gap-[8px]">
         <Image
           className="w-[28px] h-[27px]"
           source={require("../../../assets/aide-logo.png")}
         />
 
-        <Text className="text-[20px] font-[700] border text-black w-[70px]">
-          AIDE
-        </Text>
+        <Text className="text-[20px] font-[700] text-black w-[70px]">AIDE</Text>
       </View>
 
       <View className="flex flex-row gap-[17px] ">

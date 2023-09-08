@@ -6,8 +6,8 @@ const Banner = () => {
     <ScrollView className="mx-2 mt-5 " horizontal={true}>
       <View className="  rounded-xl overflow-hidden mr-4">
         <ImageBackground
-          className="w-[95vw]"
-          source={require("../../../assets/banner-image.png")}
+          className="w-[95vw]" 
+          source={require("../../../assets/banner-image.png")} 
         >
           <View className="px-9 ">
             <Text className="text-[24px] font-[700] pt-[44px] w-[50%]">
