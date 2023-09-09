@@ -8,7 +8,7 @@ import Products from "../../components/Products/Products";
 import BottomNavigation from "../../components/BottomNavigation/BottomNavigation";
 import Navbar from "../../components/Navbar/Navbar";
 
-const Home = () => {
+const Home = ({ navigation }) => {
   return (
     <>
       <Navbar />
@@ -16,7 +16,7 @@ const Home = () => {
         <Banner />
         <Search />
         <Discount />
-        <Products />
+        <Products navigation={navigation}/>
         {/* <ProductCard /> */}
       </ScrollView>
       <BottomNavigation />
