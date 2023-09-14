@@ -10,12 +10,8 @@ import React from "react";
 
 import Home from "./src/Pages/Home/Home";
 import { NavigationContainer } from "@react-navigation/native";
-import {
-  createNativeStackNavigator,
-  HeaderBackButton,
-} from "@react-navigation/native-stack";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Details from "./src/Pages/Details/Details";
-import Navbar from "./src/components/Navbar/Navbar";
 
 const Stack = createNativeStackNavigator();
 
@@ -43,7 +39,7 @@ const App = () => {
   );
 };
 
-const DetailsHeaderTitle = () => {
+const DetailsHeaderTitle = (props: any) => {
   return (
     <View>
       <Text className="w-[140px] text-[16px] font-normal py-2 text-white">
@@ -63,7 +59,7 @@ const Ratings = () => (
   </View>
 );
 
-const CustomBackButton = ({ navigation }) => (
+const CustomBackButton = ({ navigation }: any) => (
   <TouchableOpacity onPress={() => navigation.goBack()}>
     <Text className="text-white text-3xl mr-4">{"<"}</Text>
   </TouchableOpacity>

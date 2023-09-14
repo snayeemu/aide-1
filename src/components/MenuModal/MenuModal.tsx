@@ -10,7 +10,12 @@ import {
   TouchableOpacity,
 } from "react-native";
 
-const MenuModal = ({ modalVisible, setModalVisible }) => {
+interface Props {
+  modalVisible: boolean;
+  setModalVisible: Function;
+}
+
+const MenuModal = ({ modalVisible, setModalVisible }: Props) => {
   const arraySize14 = Array.apply(null, Array(14));
 
   return (

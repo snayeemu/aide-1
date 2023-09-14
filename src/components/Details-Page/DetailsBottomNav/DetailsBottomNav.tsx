@@ -24,7 +24,7 @@ const DetailsBottomNav = () => {
           />
         </TouchableOpacity>
 
-        <TouchableOpacity className="bg-[#E67E22] w-[155px] h-[30] rounded-xl border border-white shadow-xl shadow-black">
+        <TouchableOpacity className="bg-[#E67E22] w-[155px] h-[30] rounded-[5px] border border-white shadow-xl shadow-black">
           <Text className="text-white text-[14px] font-bold text-center my-auto">
             Add to Cart
           </Text>

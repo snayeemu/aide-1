@@ -1,13 +1,11 @@
-import {
-  View,
-  Text,
-  ScrollView,
-  ImageBackground,
-  TouchableOpacity,
-} from "react-native";
+import { View, Text, ImageBackground, TouchableOpacity } from "react-native";
 import React from "react";
 
-const DiscountCard = ({ discount }) => {
+interface TypeDiscount {
+  discount: number;
+}
+
+const DiscountCard = ({ discount }: TypeDiscount) => {
   return (
     <View className="mx-2 mb-5">
       <View className=" rounded-xl overflow-hidden w-[265px]">
